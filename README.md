@@ -66,7 +66,11 @@ Depending on your Desktop Environment or File Manager, you need to tie the scrip
 
 ---
 
-### Demonstration
+### Demostration
+https://github.com/user-attachments/assets/a686924a-83f8-4d71-b7f8-7ecf1e6d2d91
+
+
+
 
 
 
