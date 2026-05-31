@@ -42,7 +42,7 @@ Copy the configuration folders, scripts, and desktop entries to your user's loca
 
 ```bash
 cp -r .config ~/
-cp -r .local/ ~/
+cp -r .local ~/
 
 ```
 
