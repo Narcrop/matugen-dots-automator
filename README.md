@@ -18,7 +18,10 @@ Welcome! This repository contains my personal **Matugen** configuration (Materia
 ### Prerequisites
 Make sure you have the following installed:
 * [Matugen](https://github.com/InioAsis/matugen)
-* [Your wallpaper daemon, e.g., swww, feh, hyprpaper, plasma-apply-wallpaperimage]
+* [Pywalfox](https://github.com/frewacom/pywalfox)
+* [Pywalfox Add-On](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/)
+* [Kitty](https://github.com/kovidgoyal/kitty)
+* [Your wallpaper daemon like: [awww](https://codeberg.org/LGFae/awww), [hyprpaper](https://github.com/hyprwm/hyprpaper), [plasma-apply-wallpaperimage](https://kde.org/es/plasma-desktop/)]
 
 ---
 
