@@ -7,7 +7,8 @@ Welcome! This repository contains my personal **Matugen** configuration (Materia
 ## ✨ Features
 
 * **Custom Templates:** Optimized templates for [KDE, GTK, Konsole, Kitty, Pywalfox, Vesktop].
-* **Centralized Config:** My production-ready Matugen `config.toml`.
+* **Centralized Config:** My production ready Matugen `config.toml`.
+* **Custom Kitty Settings:** kitty.conf
 * **One-Click Automation:** A script that integrates into your file manager's right-click menu to update your wallpaper and trigger Matugen instantly.
 
 ---
