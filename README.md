@@ -17,7 +17,7 @@ Welcome! This repository contains my personal **Matugen** configuration (Materia
 
 ### Prerequisites
 Make sure you have the following installed:
-* [Matugen](https://github.com/InioAsis/matugen)
+* [Matugen](https://github.com/InioX/matugen)
 * [Pywalfox](https://github.com/frewacom/pywalfox)
 * [Pywalfox Add-On](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/)
 * [Kitty](https://github.com/kovidgoyal/kitty)
