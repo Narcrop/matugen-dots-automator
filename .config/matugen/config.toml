@@ -1,28 +1,30 @@
 [config]
 
 [templates.kde]
-input_path = '~/.config/matugen/templates/kde.colors.template'
+input_path = '~/.config/matugen/templates/kde.colors'
 output_path = '~/.local/share/color-schemes/Matugen.colors'
 
 [templates.konsole]
-input_path = '~/.config/matugen/templates/konsole.colorscheme.template'
+input_path = '~/.config/matugen/templates/konsole.colorscheme'
 output_path = '~/.local/share/konsole/Matugen.colorscheme'
 
 [templates.vesktop]
-input_path = '~/.config/matugen/templates/vesktop.css.template'
+input_path = '~/.config/matugen/templates/vesktop.css'
 output_path = '~/.config/vesktop/themes/Matugen.theme.css'
 
 [templates.kitty]
-input_path = '~/.config/matugen/templates/kitty.conf.template'
+input_path = '~/.config/matugen/templates/kitty.conf'
 output_path = '~/.config/kitty/colors-matugen.conf'
 
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk.css'
 output_path = '~/.config/gtk-3.0/gtk.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
 
 [templates.gtk4]
 input_path = '~/.config/matugen/templates/gtk.css'
 output_path = '~/.config/gtk-4.0/gtk.css'
+post_hook = '~/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
 
 [templates.pywalfox]
 input_path = "~/.config/matugen/templates/pywalfox-colors.json"
